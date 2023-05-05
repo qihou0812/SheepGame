@@ -1,5 +1,7 @@
 package com.sheepgame.view;
 
+import com.sheepgame.model.Brand;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -13,6 +15,8 @@ public class Start extends JFrame {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLocationRelativeTo(null);
         this.setVisible(true);
+        //The method add components and add to the recent frame
+        //this.getContentPane().add(brand);
     }
 
     public static void main(String[] args) {
